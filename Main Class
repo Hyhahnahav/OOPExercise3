@@ -1,0 +1,19 @@
+public class Bag
+{
+	private String colour;
+	private Brand brand;
+	private Size size;
+
+	public Bag( String colour){
+	    this.colour = colour; 
+		brand = new Brand(); 
+	    size = new Size();              
+	}
+    public String getColour(){
+		return colour;
+	}
+
+	public void setColour(String colour){
+		this.colour = colour;
+	}
+}
