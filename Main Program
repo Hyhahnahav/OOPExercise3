@@ -1,0 +1,7 @@
+public class MainProgram
+{
+	public static void main(String [] args){
+		Bag chanel = new Bag ("black");
+		System.out.println(chanel.getColour());
+	}
+}
