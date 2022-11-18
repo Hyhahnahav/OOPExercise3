@@ -1,0 +1,16 @@
+public class Brand
+{ 
+	private String imported;
+
+	public Brand(){
+		imported = "Unknown";
+	}
+
+	public String getImported(){
+		return imported;
+	}
+
+	public void setImported(String imported ){
+		this.imported= imported;
+	}
+}
